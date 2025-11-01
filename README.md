@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Appscrip Assignment – Product Listing Page (PLP)
 
-## Getting Started
+## 📘 Overview  
+This project is a **fully responsive Product Listing Page (PLP)** developed using **Next.js 16** as part of the **Appscrip Frontend Assignment**.  
+It replicates the provided Figma design, focusing on clean layout, minimal dependencies, and interactive components — including filters, sorting options, and product grid responsiveness.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧱 Tech Stack  
+- ⚛ **Next.js 16** (React App Router)  
+- 🎨 **Pure CSS** (no frameworks, handcrafted styling)  
+- 🔗 **Fake Store API** for product images & data  
+- 🚀 **Netlify** for hosting & deployment  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧩 Features  
+✅ Clean, minimalist UI following Figma reference  
+✅ 3 products per row (desktop), 2 (tablet), 1 (mobile)  
+✅ Toggleable **Filter Sidebar** with smooth expand/collapse  
+✅ Functional **Sorting Dropdown** ("Recommended", "Newest First", etc.)  
+✅ Product cards with hover zoom and **Out of Stock** labels  
+✅ Semantic HTML + SEO metadata  
+✅ Lightweight and fast – no heavy JS or CSS libraries  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧑‍💻 Local Setup  
 
-To learn more about Next.js, take a look at the following resources:
+Clone and run the project locally:  
+    npm install
+    npm run dev
+Then open your browser at:
+👉 http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Deployment
+Deployed successfully on Netlify.
 
-## Deploy on Vercel
+## 🧠 Key Highlights
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Developed an interactive PLP using Next.js App Router
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Designed responsive grid using CSS Grid and media queries
+
+Implemented dropdown menus and accordions using React state
+
+Added SEO meta tags and alt attributes for accessibility
+
+Deployed production build seamlessly via Netlify
+
+## 🏁 Final Deliverables
+
+Live Demo (Netlify): https://zippy-gumption-e3002b.netlify.app/
