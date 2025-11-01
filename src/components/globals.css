@@ -1,22 +1,11 @@
-.hero {
-  padding: 36px 0 18px;
-  border-bottom: 1px solid #eee;
-  background: #fff;
-}
-
-.hero .container {
+.page-wrap {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 16px;
-}
-
-.page-wrap {
-  max-width: 1200px;
-  margin: 18px auto;
-  padding: 0 16px;
   display: grid;
   grid-template-columns: 260px 1fr;
   gap: 24px;
+  align-items: start;
 }
 
 .page-wrap.no-filters {
